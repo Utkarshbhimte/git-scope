@@ -1,0 +1,25 @@
+{
+  "name": "git-scope",
+  "version": "1.0.5",
+  "description": "Quickly review all your repos' git status in one glance",
+  "main": "index.mjs",
+  "bin": {
+    "git-scope": "./index.mjs"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cli-table3": "^0.6.0",
+    "filesize": "^8.0.3",
+    "get-folder-size": "^3.1.0",
+    "simple-git": "latest"
+  },
+  "keywords": [
+    "git",
+    "status",
+    "directory",
+    "cli"
+  ],
+  "author": "Utkarsh Bhimte",
+  "type": "module",
+  "license": "ISC"
+}
